@@ -6,11 +6,13 @@
         <title>responsive cafe</title>
         <!-- googleフォント -->
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header class="l-header js-float-menu">
-            <div class="p-header">
+            <div class="p-header u-flex">
                 <h1 class="p-header__title">CafeCafe</h1>
                 <div class="p-header__trigger js-toggle-sp-menu">
                     <span></span>
@@ -18,13 +20,13 @@
                     <span></span>
                 </div>
                 <nav class="p-nav">
-                    <ul class="c-menu">
+                    <ul class="c-menu js-toggle-sp-menu-target u-flex">
                         <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">TOP</a></li>
-                        <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">NEWS</a></li>
-                        <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">ABOUT</a></li>
-                        <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">STAFF</a></li>
-                        <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">ACCESS</a></li>
-                        <li class="c-menu__item"><a href="" class="c-menu__link js-menu-link">CONTACKT</a></li>
+                        <li class="c-menu__item"><a href="#news" class="c-menu__link js-menu-link">NEWS</a></li>
+                        <li class="c-menu__item"><a href="#about" class="c-menu__link js-menu-link">ABOUT</a></li>
+                        <li class="c-menu__item"><a href="#staff" class="c-menu__link js-menu-link">STAFF</a></li>
+                        <li class="c-menu__item"><a href="#access" class="c-menu__link js-menu-link">ACCESS</a></li>
+                        <li class="c-menu__item"><a href="#contact" class="c-menu__link js-menu-link">CONTACKT</a></li>
                     </ul>
                 </nav>
 
@@ -33,16 +35,126 @@
         </header>
 
         <main>
-            <section class="p-hero js-float-menu-target">
-                <h2 class="c-title">cafe<br>good time</h2>
+            <section class="p-hero u-flex js-float-menu-target">
+                <h2 class="p-hero__title">cafecafe<br>good time</h2>
             </section>
 
-            <section id="news" class="">
+            <section id="news" class="l-container">
                 <h2 class="c-title">NEWS</h2>
-                
+                <div class="c-body">
+                    <ul class="p-news">
+                        <li>
+                            <a href="">
+                                <span>2020/5/29</span>
+                                <span>仙台店開店しました</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>2020/5/29</span>
+                                <span>山形店開店しました</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>2020/5/29</span>
+                                <span>仙台2号店開店しました</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>2020/5/29</span>
+                                <span>新潟店開店しました</span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+
+            <section id="about" class="l-container">
+                <div class="p-about">
+                    <h2 class="c-title">ABOUT</h2>
+                    <div class="c-body"> 
+                        <p>テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                            テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                            テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                            テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="staff" class="l-container">
+                <h2 class="c-title">STAFF</h2>
+                <div class="p-staff">
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div><div class="">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="access" class="l-container">
+                <h2 class="c-title">ACCESS</h2>
+                <div class="c-body">
+                    <p>宮城県仙台市</p>
+                </div>
+
+            </section>
+
+            <section id="contact" class="l-container">
+                <h2 class="c-title">CONTACT</h2>
+                <div class="c-body">
+                    <form action="" class="p-form">
+                        <input type="text" placeholder="お名前">
+                        <input type="email" placeholder="Email">
+                        <textarea name="comment" id="" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+                        <input type="submit" value="送信">
+                    </form>
+                </div>
+
             </section>
             
         </main>
+
+        <footer class="l-footer"></footer>
         
     </body>
     

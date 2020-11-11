@@ -1,0 +1,15 @@
+.p-header{
+    justify-content: space-between;
+    &__title{
+        font-size:$font-size_4l;
+        font-weight: 800;
+        font-family: $font-family_header;
+        color:$font-color_header;
+    }
+    &__trigger{
+        display:none;
+        @include mq(){
+            display: inline-block;
+        }
+    }
+}

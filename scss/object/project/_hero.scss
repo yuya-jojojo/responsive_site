@@ -1,0 +1,15 @@
+.p-hero{
+    background-image: url(../../../img/cafe.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    justify-content:center;
+    align-items: center;
+    &__title{
+        font-size:$font-size_4l;
+        font-family:$font-family_corp;
+        color:$color_bg
+    }
+}

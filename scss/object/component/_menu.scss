@@ -1,0 +1,15 @@
+.c-menu{
+    align-items: center;
+    font-size: $font-size_xl;
+    font-family:$font-family_header;
+    &__item{
+        margin-right:$space_xl;
+        color:$font-color_header;
+        &:last-of-type{
+            margin-right:0;
+        }
+    }
+    &__link{
+        color:$font-color_header;
+    }
+}

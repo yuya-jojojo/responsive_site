@@ -1,0 +1,9 @@
+.p-news{
+    height:60px;
+    overflow:scroll;
+    border-left:5px solid $color_bar;
+    width: 70%;
+    margin: 0 auto;
+    padding:$space_l $space_xl;
+    box-sizing:border-box;
+}
